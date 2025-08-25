@@ -12,6 +12,15 @@ class App extends Component {
   add(){
     callApi("GET", BASEURL + `add/${this.state.A}/${this.state.B}`, "", this.getResponse);
   }
+  sub(){
+    callApi("GET", BASEURL + `add/${this.state.A}/${this.state.B}`, "", this.getResponse);
+  }
+  mul(){
+    callApi("GET", BASEURL + `add/${this.state.A}/${this.state.B}`, "", this.getResponse);
+  }
+  div(){
+    callApi("GET", BASEURL + `add/${this.state.A}/${this.state.B}`, "", this.getResponse);
+  }
 
   getResponse(res){
     this.setState({RES: res});
