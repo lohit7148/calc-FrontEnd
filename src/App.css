@@ -27,7 +27,7 @@ td{
 input, label{
   height: 30px;
   width: 100px;
-  padding-left: 10px;
+  padding: 10px;
   font-size: 16pt;
   color: lightseagreen;
   font-weight: bold;
