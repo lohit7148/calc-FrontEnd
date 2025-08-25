@@ -1,7 +1,7 @@
 header{
   height: 50px;
   line-height: 50px;
-  background: blue;
+  background: lightseagreen;
   color: white;
 }
 .title{
@@ -20,17 +20,18 @@ section{
   overflow: auto;
 }
 td{
-  color: green;
+  color: lightseagreen;
   font-weight: bold;
 }
 
 input, label{
   height: 30px;
   width: 100px;
+  padding-left: 10px;
   font-size: 16pt;
-  color: green;
+  color: lightseagreen;
   font-weight: bold;
-  border-color: lightpink;
+  border-color: lightseagreen;
   border-radius: 5pt;  
 }
 
